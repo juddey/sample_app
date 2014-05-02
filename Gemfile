@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.4'
+gem 'bootstrap-sass', '2.3.2.0'
+gem 'sprockets', '2.11.0'
+#gem 'pry', '0.9.11.4'
 
 # Use sqlite3 as the database for Active Record
 gem 'pg', '0.15.1'
@@ -13,6 +16,7 @@ group :development, :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
+#  gem 'spork', '> 0.9.0.rc9'
 end
 
 group :test do
